@@ -6,8 +6,6 @@ from dash.dependencies import Input, Output
 import pandas as pd
 
 nadadores= pd.read_csv("./nadadores200m.csv")
-server = app.server
-
 
 app= dash.Dash(assets_ignore='^((?!12).)*$')
 server = app.server
